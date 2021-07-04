@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Card from './card.jsx';
+import Todo from './todo.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div class="container">
+
+    <Card/>
+    <Card/>
+    <Todo/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
